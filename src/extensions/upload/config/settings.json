@@ -1,0 +1,8 @@
+{
+    "provider": "cloudfare",
+    "providerOptions": {
+        "cloud_name": "ebyapar",
+        "api_key": "258363498999273",
+        "api_secret": "uMhoR5TxChqiugBqPziHJ2rhluA"
+    }
+}
