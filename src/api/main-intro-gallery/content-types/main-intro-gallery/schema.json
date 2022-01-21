@@ -1,0 +1,31 @@
+{
+  "kind": "singleType",
+  "collectionName": "main_intro_galleries",
+  "info": {
+    "singularName": "main-intro-gallery",
+    "pluralName": "main-intro-galleries",
+    "displayName": "MainIntro-Gallery"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "MainHead": {
+      "type": "string",
+      "required": true
+    },
+    "MainBody": {
+      "type": "string",
+      "required": true
+    },
+    "BackgroundImage": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false,
+      "required": true
+    }
+  }
+}

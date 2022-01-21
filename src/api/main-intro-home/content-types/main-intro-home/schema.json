@@ -1,0 +1,31 @@
+{
+  "kind": "singleType",
+  "collectionName": "main_intro_homes",
+  "info": {
+    "singularName": "main-intro-home",
+    "pluralName": "main-intro-homes",
+    "displayName": "MainIntro-Home"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "MainHead": {
+      "type": "string",
+      "required": true
+    },
+    "MainBody": {
+      "type": "string",
+      "required": true
+    },
+    "BackgroundImage": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false,
+      "required": true
+    }
+  }
+}
